@@ -1,0 +1,70 @@
+ID,Name,Category,Price,Quantity,SKU,Barcode,Supplier,Last Restock Date,Low Stock Threshold,Weight (lbs),Dimensions (in),Status
+1,Widget A,Electronics,19.99,150,WID-A123,123456789012,Supplier X,2025-02-20,20,0.5,6x3x2,In Stock
+2,Widget B,Electronics,29.99,75,WID-B456,123456789013,Supplier Y,2025-02-18,10,0.7,6x4x2,In Stock
+3,Widget C,Home Goods,9.99,200,WID-C789,123456789014,Supplier Z,2025-01-15,30,1.0,8x5x3,In Stock
+4,Widget D,Home Goods,15.99,60,WID-D012,123456789015,Supplier X,2025-02-25,15,1.2,10x6x4,Out of Stock
+5,Widget E,Clothing,25.99,150,WID-E345,123456789016,Supplier Y,2025-02-10,50,0.3,12x8x1,In Stock
+6,Widget F,Clothing,18.99,90,WID-F678,123456789017,Supplier Z,2025-02-02,20,0.4,12x9x2,In Stock
+7,Widget G,Beauty,12.99,200,WID-G901,123456789018,Supplier X,2025-02-12,25,0.2,3x3x3,In Stock
+8,Widget H,Beauty,8.99,120,WID-H234,123456789019,Supplier Y,2025-01-29,30,0.3,5x4x2,In Stock
+9,Widget I,Toys,14.99,50,WID-I567,123456789020,Supplier Z,2025-01-15,10,0.6,8x4x3,In Stock
+10,Widget J,Toys,22.99,150,WID-J890,123456789021,Supplier X,2025-02-19,25,0.8,7x5x3,In Stock
+11,Widget K,Electronics,49.99,30,WID-K123,123456789022,Supplier Y,2025-01-22,5,0.9,7x5x3,In Stock
+12,Widget L,Home Goods,12.99,85,WID-L456,123456789023,Supplier X,2025-02-01,15,1.3,9x6x4,In Stock
+13,Widget M,Clothing,19.99,50,WID-M789,123456789024,Supplier Z,2025-02-15,20,0.5,14x8x2,In Stock
+14,Widget N,Clothing,29.99,200,WID-N012,123456789025,Supplier Y,2025-02-10,30,0.4,13x7x1,In Stock
+15,Widget O,Beauty,16.99,75,WID-O345,123456789026,Supplier X,2025-02-18,20,0.3,4x3x3,In Stock
+16,Widget P,Beauty,9.99,150,WID-P678,123456789027,Supplier Z,2025-01-25,25,0.5,5x4x2,In Stock
+17,Widget Q,Toys,11.99,60,WID-Q901,123456789028,Supplier X,2025-02-12,15,0.6,6x5x3,In Stock
+18,Widget R,Toys,13.99,100,WID-R234,123456789029,Supplier Y,2025-02-20,30,0.7,7x5x2,In Stock
+19,Widget S,Sports,24.99,50,WID-S567,123456789030,Supplier Z,2025-01-18,10,1.5,14x9x4,In Stock
+20,Widget T,Sports,32.99,120,WID-T890,123456789031,Supplier X,2025-02-11,25,1.7,13x8x4,In Stock
+21,UltraMax Blender,Electronics,79.99,45,BLEND-X23,987654321001,Supplier A,2025-02-10,5,2.5,12x8x7,In Stock
+22,Smartwatch Pro,Electronics,149.99,60,SMART-W456,987654321002,Supplier B,2025-01-30,10,0.4,3x3x1,In Stock
+23,Floral Vase,Home Goods,19.99,30,VASE-F123,987654321003,Supplier C,2025-01-20,8,1.2,7x7x9,Out of Stock
+24,Casual Sneakers,Clothing,39.99,120,SNEAK-C789,987654321004,Supplier D,2025-02-15,15,1.0,10x7x4,In Stock
+25,Portable Speaker,Electronics,59.99,200,SPEAK-P456,987654321005,Supplier A,2025-02-07,20,1.3,6x6x3,In Stock
+26,Green Tea Set,Beauty,18.99,80,TEA-G234,987654321006,Supplier B,2025-01-28,15,0.7,5x5x4,In Stock
+27,Kids Scooter,Toys,29.99,50,SCOOT-K567,987654321007,Supplier C,2025-02-18,10,3.0,25x10x5,In Stock
+28,Camping Tent,Sports,129.99,40,TENT-C890,987654321008,Supplier D,2025-02-22,5,7.0,72x24x12,In Stock
+29,Yoga Mat,Sports,24.99,150,MAT-Y123,987654321009,Supplier A,2025-02-05,20,1.5,24x6x4,In Stock
+30,Herbal Shampoo,Beauty,9.99,200,SHAM-H456,987654321010,Supplier B,2025-02-14,30,0.4,8x3x3,In Stock
+31,Electric Kettle,Home Goods,29.99,65,KETT-EL123,987654321011,Supplier E,2025-02-10,10,1.8,9x7x8,In Stock
+32,Fitness Tracker,Electronics,89.99,120,FIT-TK456,987654321012,Supplier F,2025-01-22,15,0.2,2x1x1,In Stock
+33,Wooden Coffee Table,Home Goods,129.99,30,TABL-W789,987654321013,Supplier G,2025-01-15,5,15.0,48x24x18,In Stock
+34,Leather Jacket,Clothing,199.99,40,JACK-L234,987654321014,Supplier H,2025-02-11,5,2.0,18x12x4,In Stock
+35,Face Mask,Beauty,4.99,200,FACEMASK-B345,987654321015,Supplier I,2025-02-20,25,0.2,6x4x0.5,In Stock
+36,Remote Control Car,Toys,34.99,80,CAR-R678,987654321016,Supplier J,2025-02-05,10,1.5,10x7x5,In Stock
+37,Electric Skateboard,Sports,349.99,10,SKATE-EL123,987654321017,Supplier K,2025-02-14,3,20.0,36x12x6,Out of Stock
+38,Sport Sunglasses,Sports,49.99,60,SUNG-S345,987654321018,Supplier L,2025-02-08,15,0.2,7x3x3,In Stock
+39,Skincare Set,Beauty,39.99,150,SKIN-S456,987654321019,Supplier M,2025-01-29,30,0.5,6x6x3,In Stock
+40,BBQ Grill,Sports,249.99,25,BBQ-G789,987654321020,Supplier N,2025-02-12,5,30.0,50x30x20,In Stock
+41,Smart Thermostat,Home Goods,129.99,45,THERM-S123,987654321021,Supplier O,2025-02-18,5,1.0,5x5x3,In Stock
+42,Winter Jacket,Clothing,149.99,60,JACKET-W456,987654321022,Supplier P,2025-01-10,10,2.5,16x14x6,In Stock
+43,Portable Air Purifier,Home Goods,79.99,100,AIRPURF-P789,987654321023,Supplier Q,2025-02-05,20,4.0,8x8x12,In Stock
+44,LED Desk Lamp,Electronics,24.99,150,LAMP-LED123,987654321024,Supplier R,2025-01-30,25,1.1,10x6x4,In Stock
+45,Knitted Scarf,Clothing,19.99,200,SCARF-K567,987654321025,Supplier S,2025-02-12,50,0.3,10x5x1,In Stock
+46,Smartphone Case,Electronics,14.99,250,CASE-S890,987654321026,Supplier T,2025-02-17,20,0.2,6x3x0.5,In Stock
+47,Children’s Book,Books,8.99,120,BOOK-K234,987654321027,Supplier U,2025-02-02,30,0.4,8x6x0.5,In Stock
+48,Massage Pillow,Beauty,39.99,40,PILLOW-M123,987654321028,Supplier V,2025-01-25,5,2.0,10x7x5,In Stock
+49,Camping Stove,Sports,69.99,80,STOVE-C456,987654321029,Supplier W,2025-02-09,15,3.5,12x10x6,In Stock
+50,Water Bottle,Sports,15.99,200,BOTTLE-W678,987654321030,Supplier X,2025-02-20,40,0.6,10x3x3,In Stock
+51,Electric Grill,Home Goods,99.99,50,GRILL-E123,987654321031,Supplier Y,2025-02-05,10,8.0,14x12x7,In Stock
+52,Wireless Earbuds,Electronics,59.99,120,EARBUDS-W456,987654321032,Supplier Z,2025-02-13,20,0.3,2x2x1,In Stock
+53,Recliner Chair,Home Goods,179.99,25,CHAIR-R789,987654321033,Supplier A,2025-01-28,5,15.0,36x28x40,In Stock
+54,Sports Watch,Clothing,199.99,70,SWATCH-S012,987654321034,Supplier B,2025-02-10,15,0.8,2x2x0.5,In Stock
+55,LED Light Strip,Electronics,24.99,200,LIGHT-LED345,987654321035,Supplier C,2025-01-18,30,0.5,6x6x2,In Stock
+56,Herbal Lip Balm,Beauty,6.99,150,BALM-H456,987654321036,Supplier D,2025-02-14,25,0.1,2x2x0.5,In Stock
+57,Train Set,Toys,49.99,100,TRAIN-T567,987654321037,Supplier E,2025-01-30,20,2.0,20x10x8,In Stock
+58,Baseball Glove,Sports,89.99,60,BASEB-S678,987654321038,Supplier F,2025-02-19,10,1.2,12x7x5,In Stock
+59,Electric Scooter,Sports,299.99,40,SCOOT-EL789,987654321039,Supplier G,2025-02-08,8,25.0,44x18x12,Out of Stock
+60,Hair Dryer,Beauty,39.99,150,HAIR-H012,987654321040,Supplier H,2025-02-01,20,1.5,9x5x7,In Stock
+61,Electric Coffee Grinder,Home Goods,39.99,80,GRIND-EC123,987654321041,Supplier I,2025-02-12,15,1.2,6x6x10,In Stock
+62,4K TV,Electronics,499.99,30,TV-4K234,987654321042,Supplier J,2025-01-22,5,30.0,48x30x5,In Stock
+63,Compact Mirror,Beauty,9.99,150,MIRROR-C345,987654321043,Supplier K,2025-02-16,25,0.2,4x4x0.5,In Stock
+64,Camping Lantern,Sports,24.99,90,LANTERN-C456,987654321044,Supplier L,2025-02-03,10,1.0,8x8x6,In Stock
+65,Board Game,Toys,19.99,150,BOARD-B567,987654321045,Supplier M,2025-01-15,30,2.0,10x10x2,In Stock
+66,Air Fryer,Home Goods,89.99,60,FRYER-A678,987654321046,Supplier N,2025-02-20,15,4.0,12x12x10,In Stock
+67,Wireless Charger,Electronics,29.99,120,CHARGER-W789,987654321047,Supplier O,2025-02-07,20,0.5,4x4x0.5,In Stock
+68,Running Shoes,Clothing,79.99,90,SHOES-R890,987654321048,Supplier P,2025-01-25,10,1.5,12x8x4,In Stock
+69,Children's Backpack,Clothing,29.99,150,BACKPACK-K123,987654321049,Supplier Q,2025-02-14,30,0.8,10x8x5,In Stock

@@ -1,0 +1,11 @@
+ID,Name,Category,Price,Quantity,SKU,Barcode,Supplier,Last Restock Date,Low Stock Threshold,Weight (lbs),Dimensions (in),Status
+1,Laptop,Electronics,999.99,10,LPT-001,123456789012,TechSupply,2024-12-15,5,4.5,15x10x1,In Stock
+2,Smartphone,Electronics,599.99,15,SMP-002,987654321098,GadgetWorld,2025-02-10,5,0.5,6x3x0.5,In Stock
+3,Headphones,Electronics,89.99,20,HDP-003,456789123456,AudioGear,2025-01-05,10,0.8,7x6x2,In Stock
+4,Leather Jacket,Clothing,199.99,8,JKT-004,789123456789,FashionHub,2024-11-20,3,2.5,22x16x2,In Stock
+5,Wooden Desk,Furniture,299.99,5,DSK-005,321654987123,FurnishCo,2025-03-01,2,45,48x24x30,In Stock
+6,T-shirt,Clothing,19.99,50,TSH-006,654321987123,ClothLine,2025-02-15,10,0.3,12x10x0.5,In Stock
+7,Bluetooth Speaker,Electronics,129.99,12,SPK-007,147258369852,SoundTech,2024-12-01,5,1.2,8x4x3,In Stock
+8,Coffee Maker,Kitchen Appliances,79.99,7,CMK-008,258369147852,KitchenGear,2025-01-25,3,3.5,12x8x14,In Stock
+9,Backpack,Bags,49.99,15,BPK-009,369852147258,TravelGear,2025-02-05,5,1.8,18x12x6,In Stock
+10,Office Chair,Furniture,149.99,4,CHR-010,852147258369,OfficeSupply,2024-10-15,2,25,24x24x40,In Stock
