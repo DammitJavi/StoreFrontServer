@@ -7,16 +7,21 @@ import rateLimit from 'express-rate-limit';
 import pkg from 'pg';
 import bcrypt from 'bcrypt';
 import path from 'path';
+import compression from 'compression';
 import { fileURLToPath } from 'url';
 
 const { Pool } = pkg;
 
-const app = express();
-const port = process.env.PORT || 3000;
-
 // Define __dirname for ES Modules
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
+
+dotenv.config({path: __dirname+'/../.env' });
+
+const app = express();
+const port = process.env.PORT || 3000;
+const dbURL = process.env.DATABASE_URL;
+
 
 const allowedOrigins = ['http://localhost:5173', 'http://localhost:3000/api/'];
 const corsOption = {
@@ -38,16 +43,14 @@ app.use(helmet());
 app.use(rateLimit({ windowMs: 15 * 60 * 1000, max: 100 }));
 app.use(cors(corsOption));
 app.use(express.json());
+app.use(compression())
 
 //For hashing passwords
 const saltRounds = 5;
 
 //PostgreSQL connection
 const pg = new Pool({
-    user: 'javierrojas',
-    host: 'localhost',
-    database: 'storefront',
-    port: 5432,
+    connectionString: dbURL,
 });
 
 //Testing Connection
@@ -203,6 +206,11 @@ app.post('/api/login/', async (req,res) => {
 
 app.get('/health', (req, res) => {
     res.status(200).json({ status: 'OK', uptime: process.uptime() });
+});
+
+app.use((err, req, res, next) => {
+    console.error(err.stack);
+    res.status(500).send('Something went wrong!');
 });
 
 app.use(express.static(path.join(__dirname, '../dist')));
