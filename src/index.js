@@ -23,7 +23,7 @@ const port = process.env.PORT || 3000;
 const dbURL = process.env.DATABASE_URL;
 
 
-const allowedOrigins = [process.env.CORS_ORIGIN, process.env.CORS_ORIGIN2];
+const allowedOrigins = [process.env.CORS_ORIGIN];
 const corsOption = {
     origin: (origin, callback) => {
         if( !origin || allowedOrigins.includes(origin)){
