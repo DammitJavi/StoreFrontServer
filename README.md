@@ -31,4 +31,7 @@ ssh -i ~/.ssh/aws.pem ec2-user@<-Public IP->
 //Login to PSQL instance
 psql -h <-Public IP-> -U ec2-user -d postgres -p 5432 -W
 
+AWS EC2 for server
+AWS S3 for client
+
 
