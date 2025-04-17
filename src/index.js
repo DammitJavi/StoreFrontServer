@@ -122,7 +122,7 @@ app.post('/api/users/', async (req,res) => {
         const { username, email, password } = req.body;
         const errors = {}
         const emailRegex = /^[a-zA-Z0-9.+-_]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
-        const passwordRegex = /^[a-zA-z0-9!#@%\$\&]+$/;
+        const passwordRegex = /^[a-zA-Z0-9!#@%\$\&]+$/;
 
    
         if(!username){
