@@ -82,7 +82,7 @@ app.get('/api/product/:id', async (req, res) => {
         console.log('object: ', result.rows[0])
 
         // Send response
-        res.json({ message: 'Received', value: result.rows[0] });
+        res.json(result.rows[0]);
     }
     catch (err) {
         console.error(err)
@@ -92,11 +92,13 @@ app.get('/api/product/:id', async (req, res) => {
 
 app.post('/api/product/', async (req, res) => {
     try{
-        const { keys } = req.body;
+        const keys  = req.body;
+        
+        console.log(req.body)
+        // if(!Array.isArray(keys)){
+        //     return res.status(400).json({message: "error with array"});
+        // }
 
-        if(!Array.isArray(keys)){
-            return res.status(400).json({message: "error with array"});
-        }
         const query = `SELECT id, product_name, category, price, sku, supplier, dimensions, status from Inventory WHERE id = ANY($1)`;  
 
         const result = await pg.query(query, [keys]);
